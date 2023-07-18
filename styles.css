@@ -1,22 +1,22 @@
-body {
+body { /*definine fonte, margem, remove preenchimento do corpo da página e define cor de fundo*/
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffe6e6; /* Cor de rosa claro */
+  background-color: #ffe6e6; 
 }
 
-header {
-  background-color: #ff99cc; /* Rosa mais escuro para o cabeçalho */
+header { /*definine cor, centraliza e adiciona preenchimento*/
+  background-color: #ff99cc; 
   text-align: center;
   padding: 20px;
 }
 
-nav {
-  background-color: #ffb3d1; /* Rosa claro para a barra de navegação */
+nav { /*define cor de fundo e preenchimento na barra de navegação*/
+  background-color: #ffb3d1; 
   padding: 10px;
 }
 
-nav ul {
+nav ul {/*remove marcadores, remove margem e preenchimento, flexibiliza o layout para os itens da lista centraliza*/
   list-style: none;
   margin: 0;
   padding: 0;
@@ -24,11 +24,11 @@ nav ul {
   justify-content: center;
 }
 
-nav li {
-  margin: 0 10px;
+nav li { /*Adiciona uma margem de 0 pixels no topo e base, e 10 pixels nas laterais dos itens da lista */
+  margin: 0 10px; 
 }
 
-nav li a {
+nav li a { /*define cor do texto, remove decoração do sublinhado, adiciona preenchimento e adiciona botão*/
   color: #333;
   text-decoration: none;
   padding: 5px 10px;
@@ -57,16 +57,17 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"],
+/*Estilo para campos de entrada*/
+input[type="text"], 
 input[type="email"],
 input[type="tel"] {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
 }
-
+ /*Estilo para botão de envio de formulário*/
 input[type="submit"] {
-  background-color: #ff6699; /* Rosa escuro para o botão de envio */
+  background-color: #ff6699; 
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -74,9 +75,10 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+/*Estilo de rodapé*/
 footer {
   text-align: center;
-  background-color: #ff99cc; /* Rosa mais escuro para o rodapé */
+  background-color: #ff99cc; 
   padding: 10px;
   position: absolute;
   bottom: 0;
