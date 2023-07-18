@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6e6; /* Cor de rosa claro */
+}
+
+header {
+  background-color: #ff99cc; /* Rosa mais escuro para o cabeçalho */
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #ffb3d1; /* Rosa claro para a barra de navegação */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav li a:hover {
+  background-color: #ffccdd; /* Rosa mais claro no hover */
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: #ff6699; /* Rosa escuro para os títulos das seções */
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #ff6699; /* Rosa escuro para o botão de envio */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff99cc; /* Rosa mais escuro para o rodapé */
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
